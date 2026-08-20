@@ -40,7 +40,15 @@
       "expo-router",
       "expo-sharing",
       "expo-status-bar",
-      "expo-document-picker"
+      "expo-document-picker",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26
+          }
+        }
+      ]
     ],
     "extra": {
       "router": {},
