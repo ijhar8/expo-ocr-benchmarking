@@ -1,0 +1,10 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "podspecPath": "ExpoOcrPdfRasterizer.podspec",
+    "modules": ["ExpoOcrPdfRasterizerModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.ocrpdfrasterizer.ExpoOcrPdfRasterizerModule"]
+  }
+}

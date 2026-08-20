@@ -1,0 +1,10 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "podspecPath": "ExpoContourDetector.podspec",
+    "modules": ["ExpoContourDetectorModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.contourdetector.ExpoContourDetectorModule"]
+  }
+}

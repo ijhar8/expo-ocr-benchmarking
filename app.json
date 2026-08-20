@@ -1,25 +1,53 @@
 {
   "expo": {
-    "name": "temp-app",
-    "slug": "temp-app",
+    "name": "DocsbyIRA OCR Lab",
+    "slug": "ocr-mvp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "scheme": "ocrmvp",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.docsbyira.ocrmvp",
+      "infoPlist": {
+        "NSCameraUsageDescription": "DocsbyIRA OCR Lab requires camera access to scan and benchmark invoice text in real-time.",
+        "NSPhotoLibraryUsageDescription": "DocsbyIRA OCR Lab requires photo library access to benchmark test invoice images.",
+        "NSDocumentsFolderUsageDescription": "DocsbyIRA OCR Lab needs access to select PDF documents for OCR processing."
+      }
     },
     "android": {
+      "package": "com.docsbyira.ocrmvp",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0F172A",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.INTERNET"
+      ],
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sharing",
+      "expo-status-bar",
+      "expo-document-picker"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d144322f-f391-4b62-a5d5-68fcd4e31482"
+      }
+    },
+    "owner": "ijharansari8"
   }
 }
