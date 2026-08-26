@@ -1,5 +1,10 @@
 # OCR MVP
 
+![Expo](https://img.shields.io/badge/Expo-57-blue)
+![React Native](https://img.shields.io/badge/React%20Native-0.86-purple)
+![TypeScript](https://img.shields.io/badge/TypeScript-6.0-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A React Native (Expo) application for benchmarking and comparing on-device OCR engines on mobile devices.
 
 ## Overview

@@ -3,7 +3,7 @@ import { File, Paths } from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
 import { OCRBenchmarkResult, EngineComparisonSummary, OCREngineId } from '../types/ocr';
 
-const BENCHMARK_STORAGE_KEY = '@docsbyira_ocr_benchmark_runs_v1';
+const BENCHMARK_STORAGE_KEY = '@ocr_benchmark_runs_v1';
 
 export async function saveBenchmarkRun(run: OCRBenchmarkResult): Promise<void> {
   try {

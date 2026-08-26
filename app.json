@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "DocsbyIRA OCR Lab",
+    "name": "OCR Benchmark",
     "slug": "ocr-mvp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,15 +10,15 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.docsbyira.ocrmvp",
+      "bundleIdentifier": "com.expo.ocrbenchmark",
       "infoPlist": {
-        "NSCameraUsageDescription": "DocsbyIRA OCR Lab requires camera access to scan and benchmark invoice text in real-time.",
-        "NSPhotoLibraryUsageDescription": "DocsbyIRA OCR Lab requires photo library access to benchmark test invoice images.",
-        "NSDocumentsFolderUsageDescription": "DocsbyIRA OCR Lab needs access to select PDF documents for OCR processing."
+        "NSCameraUsageDescription": "This app requires camera access to scan and benchmark invoice text in real-time.",
+        "NSPhotoLibraryUsageDescription": "This app requires photo library access to benchmark test invoice images.",
+        "NSDocumentsFolderUsageDescription": "This app needs access to select PDF documents for OCR processing."
       }
     },
     "android": {
-      "package": "com.docsbyira.ocrmvp",
+      "package": "com.expo.ocrbenchmark",
       "adaptiveIcon": {
         "backgroundColor": "#0F172A",
         "foregroundImage": "./assets/android-icon-foreground.png",
