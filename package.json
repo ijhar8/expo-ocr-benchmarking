@@ -1,7 +1,25 @@
 {
   "name": "ocr-mvp",
   "version": "1.0.0",
+  "description": "On-device OCR engine benchmarking app for mobile invoice processing",
   "main": "expo-router/entry",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijharansari/ocr-mvp.git"
+  },
+  "author": "ijharansari",
+  "license": "MIT",
+  "keywords": [
+    "ocr",
+    "mobile",
+    "invoice",
+    "benchmark",
+    "expo",
+    "react-native",
+    "paddleocr",
+    "mlkit",
+    "doctr"
+  ],
   "dependencies": {
     "@expo/vector-icons": "^15.0.0",
     "@react-native-async-storage/async-storage": "2.2.0",
@@ -51,6 +69,5 @@
     "build:apk": "eas build -p android --profile preview",
     "doctor:device": "agent-device doctor",
     "postinstall": "patch-package"
-  },
-  "private": true
+  }
 }
